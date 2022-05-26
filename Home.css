@@ -1,0 +1,211 @@
+html {
+    margin: auto;
+    max-width: 100%;
+    min-width: 33%;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Space, Haettenschweiler, 'Arial Bold', sans-serif;
+    background-color: rgb(0, 0, 0,90%);
+    color: white;
+}
+
+nav {
+    position: sticky;
+    max-height: 3rem;
+    width: 100%;
+    padding: .75em 0em .75em 0em;
+    top: 1em;
+    letter-spacing: 3pt;
+    word-spacing: 2em;
+    word-wrap: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-shadow: 1pt 1pt black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30pt;
+    background-color: rgba(37, 37, 37, 0.781);
+    box-shadow: 1pt 4pt black;
+}
+
+.Intro {
+    margin: 3em auto auto auto;
+    display: grid;
+    max-width: 80em;
+    height: 40em;
+    align-items: center;
+    align-content: top;
+    word-spacing: 3pt;
+    grid-template-areas: "IntroL IntroR";
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-gap: 3em;
+}
+
+.Intro IntroL {
+    grid-area: IntroL;
+}
+
+.Intro IntroR {
+    grid-area: IntroR;
+}
+
+.IntroL {
+    text-align: justify;
+    line-height: 2rem;
+    margin: auto;
+    position: relative;
+}
+
+.IntroR {
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+@media screen and (max-width: 1080px) {
+    .Intro {
+        max-width: 60em;
+        flex-flow: wrap;
+    }
+    .h2 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    nav {
+        position: sticky;
+        align-items: center;
+        align-content: center;
+        max-height: 12rem;
+        width: 100%;
+        padding: .75em 0em .75em 0em;
+        top: 1em;
+        letter-spacing: 3pt;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .Intro {
+    margin: 3em auto auto auto;
+    display: grid;
+    max-width: 80em;
+    align-items: center;
+    align-content: top;
+    word-spacing: 3pt;
+    grid-template-rows: auto;
+    grid-template-columns: 50%;
+    grid-column: 1;
+    grid-gap: 3em;
+    word-wrap: flex;
+    position: relative;
+    }
+    .h2 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    nav {
+        position: sticky;
+        align-items: center;
+        align-content: center;
+        max-height: 12rem;
+        width: 100%;
+        padding: .75em 0em .75em 0em;
+        top: 1em;
+        letter-spacing: 3pt;
+        font-size: medium;
+    }
+}
+
+h1, h2 {
+    text-align: right;
+    align-content: center;
+    align-items: center;
+    text-shadow: 0.1em 0.1em rgba(0, 0, 0, 80%);
+}
+
+h1 {
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    letter-spacing: 4pt;
+    word-spacing: 1pt;
+    transition: ease-out 0.3s;
+    font-family: cursive;
+    position: relative;
+    word-wrap: normal;
+}
+
+h1:hover {
+    font-size: 5em;
+    transition: ease-in 0.3s;
+    color: gold;
+}
+
+h2 {
+    font-size: 30pt;
+    color: purple;
+    letter-spacing: 3pt;
+    transition: ease-out 0.3s;
+    font-family: cursive;
+    line-height: 2em;
+    position: relative;
+    word-wrap: normal;
+}
+
+h2:hover {
+    font-size: 32;
+    transition: ease-in 0.3s;
+    color: orangered;
+}
+
+p {
+    color: lightgrey;
+    letter-spacing: 1pt;
+    text-shadow: 0.2em 0.2em rgba(0, 0, 0, 40%);
+}
+
+button a {
+    font-family: cursive;
+    font-weight: bolder;
+    letter-spacing: 3pt;
+    word-spacing: 3pt;
+}
+
+button {
+    text-align: center;
+    color: black;
+    background-color: rgba(0, 0, 0, 60%);
+    width: 180pt;
+    height: 40pt;
+    border-radius: 10pt;
+    transition: ease-out 0.4s;
+    text-shadow: 3pt 1pt black;
+    box-shadow: inset 180pt 0 0 0 0 black;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    color: white;
+    transition: ease-out 0.4s;
+    cursor: pointer;
+    box-shadow: inset 180pt 0 0 0 rgba(197, 14, 14, 60%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1pt 1pt black;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: gold;
+}
+

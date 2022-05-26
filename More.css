@@ -1,0 +1,210 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    min-width: 20em;
+    padding: 3em 0em;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+nav {
+    position: sticky;
+    max-height: 3rem;
+    width: 100%;
+    padding: .75em 0em .75em 0em;
+    top: 1em;
+    display: flexbox;
+    letter-spacing: 3pt;
+    word-spacing: 2em;
+    word-wrap: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-shadow: 1pt 1pt black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(37, 37, 37, 0.781);
+    box-shadow: 1pt 4pt black;
+    font-size: 3rem;
+    z-index: 2;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1pt 1pt black;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: gold;
+}
+
+header {
+    max-height: 80%;
+    min-width: 80%;
+    margin: 3em auto 1em auto;
+    padding: 1% 5% 1% 5%;
+    position: relative;
+}
+
+header .title {
+    word-spacing: 0.90em;
+    letter-spacing: 0.30em;
+    margin: auto;
+    padding: 1% 2%;
+    line-break: auto;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    background-color: black;
+    border:rgb(121, 2, 2) 0.5em solid;
+    border-radius: 1em;
+    line-height: 1em;
+}
+
+header:hover {
+    cursor: none;
+}
+
+body {
+    margin: 4rem;
+    max-height: 70em;
+    display: grid;
+    text-align: center;
+    outline: 0.5em solid rgb(121, 2, 2);
+    background-color: rgba(218, 23, 97, 0.37);
+    border-radius: 2em;
+    position: relative;
+}
+
+body .content {
+    margin: auto;
+    padding: 1% 10% 1% 10%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 3%;
+}
+
+body:hover {
+    cursor: help;
+}
+
+button {
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    background-color: rgb(199, 31, 31);
+    border-radius: 1em;
+    transition-duration: 200ms;
+}
+
+button:hover {
+    background-color: rgb(207, 18, 144);
+    transition: 200ms linear;
+}
+
+.bulba {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.bulba2 {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.char {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.char2 {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.squirt {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.squirt2 {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.cleff {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.cleff2 {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.jigg {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.jigg2 {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.pika {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+.pika2 {
+    width: 20%;
+    min-width: 80%;
+    aspect-ratio: 1;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
+footer .link {
+    text-align: justify;
+    letter-spacing: 0.10em;
+    color: white;
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 1em;
+}
+
+.link:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+p .thankyou {
+    text-align: center;
+    letter-spacing: 0.10em;
+    margin: 2em auto 2em auto;
+}
